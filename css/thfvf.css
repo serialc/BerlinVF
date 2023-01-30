@@ -1,3 +1,30 @@
 body {
     font-size: 1.1rem;
 }
+
+.w100 {
+    width: 100%;
+}
+
+.vsites div {
+    margin-top: 2em;
+}
+
+.vsites div img {
+    border: 5px solid white;
+    filter: drop-shadow(2px 2px 3px grey);
+    transform: rotate(3deg);
+}
+
+.vsites div:nth-child(2n + 1) img {
+    transform: rotate(-3deg);
+}
+.vsites div:nth-child(3n + 1) img {
+    transform: rotate(-5deg);
+}
+.vsites div:nth-child(4n + 1) img {
+    transform: rotate(3deg);
+}
+.vsites div:nth-child(5n + 1) img {
+    transform: rotate(7deg);
+}
