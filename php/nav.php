@@ -18,15 +18,18 @@ _END;
 echo '<li class="nav-item"><a class="nav-link' .
     (strcmp($page, '') === 0 ? ' active" aria-current="page"' : '"') .
     ' href="' . $url_base . '">Home</a></li>';
+
 echo '<li class="nav-item"><a class="nav-link' .
     (strcmp($page, 'stories') === 0 ? ' active" aria-current="page"' : '"') .
     ' href="' . $url_base . 'stories/">Stories</a></li>';
-echo '<li class="nav-item"><a class="nav-link' .
-    (strcmp($page, 'concepts') === 0 ? ' active" aria-current="page"' : '"') .
-    ' href="' . $url_base . 'concepts/">Concepts</a></li>';
+
 echo '<li class="nav-item"><a class="nav-link' .
     (strcmp($page, 'methods') === 0 ? ' active" aria-current="page"' : '"') .
     ' href="' . $url_base . 'methods/">Methods</a></li>';
+
+echo '<li class="nav-item"><a class="nav-link' .
+    (strcmp($page, 'concepts') === 0 ? ' active" aria-current="page"' : '"') .
+    ' href="' . $url_base . 'concepts/">Concepts</a></li>';
 
 echo <<< _END
             </ul>
