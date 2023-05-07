@@ -1,0 +1,1 @@
+After generating all the websites, by visiting them all, need to go into each and alter the base paths
