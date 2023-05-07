@@ -39,11 +39,13 @@ include 'html/footer.html';
 
 
 // write output buffer
-$dir_path = 'export/' . $page;
+$exp_path = 'export/';
+$dir_path = $exp_path . $page;
 if (!is_dir($dir_path)) {
     mkdir($dir_path, 0777);
 }
 
+// export each page to a folder
 $file_path = $dir_path . (strcmp($page, '') === 0 ? '' : '/') . 'index.html';
 if (!file_put_contents($file_path, ob_get_contents())) {
     echo "ERROR SAVING BUFFER";

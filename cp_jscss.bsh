@@ -1,0 +1,4 @@
+#!/bin/bash
+cp -r js export/js
+cp -r css export/css
+echo "Finished copying the js and css dir to export/"
