@@ -1,4 +1,5 @@
 #!/bin/bash
-cp -r js export/js
-cp -r css export/css
-echo "Finished copying the js and css dir to export/"
+cp -r generate/js static/js
+cp -r generate/css static/css
+cp -r generate/imgs static/imgs
+echo "Finished copying the js, css, imgs dirs from 'generate/' to 'static/'"

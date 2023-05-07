@@ -1,0 +1,16 @@
+body {
+    font-size: 1.1rem;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.vsites div {
+    margin-top: 2em;
+}
+
+.vsites img {
+    border: 5px solid white;
+    filter: drop-shadow(2px 2px 3px grey);
+}
