@@ -1,0 +1,5 @@
+#!/bin/bash
+cp -r generate/js static/
+cp -r generate/css static/
+cp -r generate/imgs static/
+echo "Finished copying the js, css, imgs dirs from 'generate/' to 'static/'"
