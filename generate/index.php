@@ -1,8 +1,7 @@
 <?php
 
 $req = explode("/", ltrim($_SERVER['REQUEST_URI'], "/"));
-$url_base = '/' . $req[0] . '/' . $req[1] . '/';
-$page = $req[3];
+$page = $req[0];
 
 // start output buffering to save to static html
 ob_start();

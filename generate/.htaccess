@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /~cyrille/BerlinVF/generate/
+    RewriteBase /
 
 # API like urls
     RewriteRule ^index\.php$ - [L]
