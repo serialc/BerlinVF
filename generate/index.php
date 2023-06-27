@@ -3,6 +3,11 @@
 $req = explode("/", ltrim($_SERVER['REQUEST_URI'], "/"));
 $page = $req[0];
 
+$subpage = null;
+if ( count($req) == 2 ) {
+    $subpage = $req[1];
+}
+
 // start output buffering to save to static html
 ob_start();
 
@@ -20,12 +25,12 @@ case 'stories':
     include 'html/stories.html';
     break;
 
-case 'concepts':
-    include 'html/concepts.html';
+case 'methods':
+    include 'php/methods.php';
     break;
 
-case 'methods':
-    include 'html/methods.html';
+case 'concepts':
+    include 'html/concepts.html';
     break;
 
 default:
