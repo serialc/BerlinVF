@@ -22,7 +22,7 @@ case '':
     break;
 
 case 'stories':
-    include 'html/stories.html';
+    include 'php/stories.php';
     break;
 
 case 'methods':
@@ -44,6 +44,9 @@ include 'html/footer.html';
 
 
 // write output buffer
+return;
+
+// don't do this anymore
 $exp_path = '../static/';
 $dir_path = $exp_path . $page;
 if (!is_dir($dir_path)) {
