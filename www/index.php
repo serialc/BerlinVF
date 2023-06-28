@@ -14,7 +14,7 @@ ob_start();
 include 'html/header.html';
 include 'php/nav.php';
 
-echo '<div class="container bg-light pb-4">';
+echo '<div id="main" class="container bg-light pb-4">';
 
 switch ($page) {
 case '':
