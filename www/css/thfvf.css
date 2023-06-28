@@ -1,3 +1,7 @@
+html {
+    background-color: rgba(33,37,41,1);
+}
+
 body {
     font-size: 1.1rem;
 }
@@ -10,9 +14,14 @@ body {
     margin-top: 2em;
 }
 
-.vsites img {
+img {
     border: 5px solid white;
     filter: drop-shadow(2px 2px 3px grey);
+}
+
+.vsites img {
+    max-height: 300px;
+    object-fit: cover;
 }
 
 h3 a {
