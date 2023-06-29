@@ -3,18 +3,80 @@
 
     <div class="col-lg-8">
         <p>
-        <a href="https://storymaps.arcgis.com/" target="_blank">Storymaps</a> provides a simple and easy way to students to build stories and data together to showcase results as a map. Examples may include historical site information, urban planning, community garden, urban housing challenges, land-use planning, contemporary urban geography challenges or issues, or infrastructure access for cyclists (bike lanes) or pedestrians.
+        Maps provide useful canvases for telling stories or associating other media with particular locations.
+        A popular proprietary tool from Esri is <a href="https://storymaps.arcgis.com/" target="_blank">Storymaps</a>.
+        Open source alternatives exist, such as <a href="https://storymap.knightlab.com" target="_blank">StoryMap JS</a>.
+        As part of this fieldtrip we desired participants' photographs, videos, and other media to be georeferenced.
+        We created the <a href="https://github.com/serialc/ExifMapper" target="_blank">ExifMapper</a> tool that displays collected media on a map.
+        </p>
+
+        <p>
+        <a href="https://storymaps.arcgis.com/" target="_blank">Storymaps</a> provides a simple and easy way for students to build narratives (stories), mixed with various other media types, including maps. Examples may include historical site information, urban planning, community garden, urban housing challenges, land-use planning, contemporary urban geography challenges or issues, or infrastructure access for cyclists (bike lanes) or pedestrians.
         </p>
 
         <p>
         Here is a <a href="https://storymaps.arcgis.com/stories/36b03feee02f43a2999a22b264750f8b" target="_blank">Storymaps example</a> of student work on forest disturbance monitoring within the Hunsrück-Hochwald Nationalpark in Western Germany.
         </p>
+
+        <p>
+        Keep in mind that a drawback of Esri's Storymaps is that the data is on a server beyond your control. Meaning that your map could cease to be available. It is, however, quite practical to have students able to place their resources online easily.
+        </p>
+
+        <p>
+        While <a href="https://storymap.knightlab.com" target="_blank">StoryMap JS</a> can offers the same service as Esri's Storymaps, it can also be used to host content on a privately hosted server.
+        </p>
+
     </div>
 
     <div class="col-lg-4">
         <figure>
             <img src="/imgs/methods/M6_thumbnail.png" width="100%">
         </figure>
+    </div>
+
+    <div class="col-lg-4">
+        <figure>
+            <img src="/imgs/stories/S_imap.png" width="100%">
+            <figcaption>
+                A screenshot of the Berlin Virtual Fieldtrip map created in ExifMapper.
+            </figcaption>
+        </figure>
+    </div>
+    <div class="col-lg-8">
+        <h2>ExifMapper</h2>
+        <p>
+        <a href="https://github.com/serialc/ExifMapper" target="_blank">ExifMapper</a> georeferences photographs with location in exif data on a Leaflet map.
+        </p>
+
+        <p>
+        It also allows:
+        <ul>
+            <li>manual georeferencing of resources (and location correction)</li>
+            <li>multiple resource type embedded visualizations</li>
+            <li>photographs</li>
+            <li>360 photospheres</li>
+            <li>video</li>
+            <li>audio</li>
+            <li>YouTube videos</li>
+            <li>URL links</li>
+            <li>adding comments to resources</li>
+            <li>exporting of a static webmap</li>
+            <li>parallel editing of resources (using WebSockets)</li>
+        </ul>
+        </p>
+
+        <h3>Designed use case</h3>
+        <p>
+        You are going on a field trip or excursion of some sort and you have told your students/participants to all enable location saving in their device (e.g., smart-phone, tablet) photo app.
+        </p>
+
+        <p>
+Have students take pictures, create PhotoSpheres, take videos, record sound.
+        </p>
+
+        <p>
+Gather everyone's resources together and place them in the data/unsorted folder. Follow the directions below. ExifMapper will provide a webmap with all resources spatially visible by type. You can manually add links to other resources, such as YouTube videos, or other sites.
+        </p>
     </div>
 
 </div>
