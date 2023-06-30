@@ -3,6 +3,11 @@
 // purpose: differentiates content
 
 switch ($subpage) {
+
+case 'interview':
+    include 'html/stories/interview.html';
+    break;
+
 case 'imap':
     include 'html/stories/imap.html';
     break;
