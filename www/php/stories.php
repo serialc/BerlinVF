@@ -3,6 +3,23 @@
 // purpose: differentiates content
 
 switch ($subpage) {
+
+case 'gardening':
+    include 'html/stories/gardening.html';
+    break;
+
+case 'landuse':
+    include 'html/stories/landuse.html';
+    break;
+
+case 'pioneer':
+    include 'html/stories/pioneer.html';
+    break;
+
+case 'interview':
+    include 'html/stories/interview.html';
+    break;
+
 case 'imap':
     include 'html/stories/imap.html';
     break;
