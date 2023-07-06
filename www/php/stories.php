@@ -8,6 +8,10 @@ case 'gardening':
     include 'html/stories/gardening.html';
     break;
 
+case 'conflict':
+    include 'html/stories/conflict.html';
+    break;
+
 case 'landuse':
     include 'html/stories/landuse.html';
     break;

@@ -30,7 +30,7 @@ case 'methods':
     break;
 
 case 'concepts':
-    include 'html/concepts.html';
+    include 'php/concepts.php';
     break;
 
 default:
